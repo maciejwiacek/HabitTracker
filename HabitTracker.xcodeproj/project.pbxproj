@@ -11,6 +11,10 @@
 		C26179852ABD7EE400E45503 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26179842ABD7EE400E45503 /* ContentView.swift */; };
 		C26179872ABD7EE700E45503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26179862ABD7EE700E45503 /* Assets.xcassets */; };
 		C261798A2ABD7EE700E45503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26179892ABD7EE700E45503 /* Preview Assets.xcassets */; };
+		C27FBFD62AC5A9A100198348 /* ActivityItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27FBFD52AC5A9A100198348 /* ActivityItem.swift */; };
+		C27FBFD82AC5A9F500198348 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27FBFD72AC5A9F500198348 /* Activities.swift */; };
+		C27FBFDA2AC5AF1600198348 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27FBFD92AC5AF1600198348 /* AddActivityView.swift */; };
+		C27FBFDC2AC5B18100198348 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27FBFDB2AC5B18100198348 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		C26179842ABD7EE400E45503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C26179862ABD7EE700E45503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C26179892ABD7EE700E45503 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C27FBFD52AC5A9A100198348 /* ActivityItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityItem.swift; sourceTree = "<group>"; };
+		C27FBFD72AC5A9F500198348 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		C27FBFD92AC5AF1600198348 /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		C27FBFDB2AC5B18100198348 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				C26179822ABD7EE400E45503 /* HabitTrackerApp.swift */,
 				C26179842ABD7EE400E45503 /* ContentView.swift */,
+				C27FBFDB2AC5B18100198348 /* ActivityView.swift */,
+				C27FBFD92AC5AF1600198348 /* AddActivityView.swift */,
+				C27FBFD52AC5A9A100198348 /* ActivityItem.swift */,
+				C27FBFD72AC5A9F500198348 /* Activities.swift */,
 				C26179862ABD7EE700E45503 /* Assets.xcassets */,
 				C26179882ABD7EE700E45503 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27FBFD82AC5A9F500198348 /* Activities.swift in Sources */,
+				C27FBFD62AC5A9A100198348 /* ActivityItem.swift in Sources */,
 				C26179852ABD7EE400E45503 /* ContentView.swift in Sources */,
 				C26179832ABD7EE400E45503 /* HabitTrackerApp.swift in Sources */,
+				C27FBFDA2AC5AF1600198348 /* AddActivityView.swift in Sources */,
+				C27FBFDC2AC5B18100198348 /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
